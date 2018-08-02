@@ -1,1 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://(.+\.)?midominio\.com/ [NC]
+RewriteCond %{HTTP_REFERER} !^$
+RewriteRule .*\.(jpg|gif|bmp|png)$ http://hotlink.midominio.com/no_se_permite_hotlinking.jpg [L]
 
+order allow,deny
+deny from all
