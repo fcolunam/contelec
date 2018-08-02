@@ -1,2 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_REFERER} !^http://(.+\.)?contelec\.cl/ [NC]
