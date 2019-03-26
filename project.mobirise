@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "CONTELEC",
-    "currentPage": "servicios.html",
+    "currentPage": "inicio.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -39,11 +39,12 @@
     "favicon": "@PROJECT_PATH@/assets/images/1-128x128.png",
     "noImageResize": "",
     "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "robotsSwitcher": "on",
     "siteUrl": "http://contelec.cl",
     "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "google-analytics": ""
   },
   "pages": {
     "servicios.html": {
